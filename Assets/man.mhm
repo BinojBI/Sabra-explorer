@@ -1,0 +1,35 @@
+# Written by MakeHuman 1.1.1
+version v1.1.1
+tags man
+camera 11.0 9.0 0.082844149921 0.7295888946 -0.343431357373 1.225
+modifier breast/breast-trans-down|up 0.582000
+modifier macrodetails-universal/Muscle 1.000000
+modifier macrodetails/African 0.000000
+modifier macrodetails-proportions/BodyProportions 0.330000
+modifier macrodetails/Gender 1.000000
+modifier macrodetails-height/Height 0.670000
+modifier breast/BreastSize 1.000000
+modifier macrodetails/Age 0.451000
+modifier breast/BreastFirmness 1.000000
+modifier macrodetails/Asian 0.000000
+modifier breast/breast-point-decr|incr -0.406000
+modifier macrodetails/Caucasian 1.000000
+modifier breast/nipple-size-decr|incr -0.582000
+modifier breast/breast-dist-decr|incr -0.022000
+modifier macrodetails-universal/Weight 0.610000
+modifier breast/breast-volume-vert-down|up 0.044000
+tongue tongue01 52ad91a3-caad-4e50-8c38-67634e5e789c
+teeth Teeth_Base 0a5ec82a-0d5f-43ce-a765-8f076f95692d
+proxy male_muscle_13290 79e967dc-3f7a-4f2d-851e-4f06753ed571
+hair short04 e09bfd91-f83f-4f9a-ba8c-4635cd1ae0d8
+eyelashes Eyelashes01 d533836f-13ad-4836-8b65-051108253cd2
+skeleton default.mhskel
+eyebrows eyebrow001 9c81ec3a-faa5-4c94-9cdb-992300ba3084
+eyes HighPolyEyes 2c12f43b-1303-432c-b7ce-d78346baf2e6
+clothes male_casualsuit06 be449715-fd7d-49d1-bca1-7fdd4264bc2d
+clothes shoes02 8887caca-d6fb-4d73-af10-1d4fb740a936
+clothesHideFaces True
+skinMaterial skins/default.mhmat
+material short04 e09bfd91-f83f-4f9a-ba8c-4635cd1ae0d8 short04.mhmat
+material HighPolyEyes 2c12f43b-1303-432c-b7ce-d78346baf2e6 eyes/materials/brown.mhmat
+subdivide False
