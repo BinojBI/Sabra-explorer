@@ -6,9 +6,10 @@ public class Panel : MonoBehaviour {
     //palyer_controller
     public GameObject uiObject;
     public GameObject uiObject2;
+    public GameObject man;
     private Animator anim;
-    public bool display = false;
-    public bool animate;
+   
+    
    
     // Use this for initialization
     void Start()

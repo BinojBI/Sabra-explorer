@@ -6,6 +6,7 @@ public class player : MonoBehaviour {
     //palyer_controller
     private Animator anim;
     private float pSpeed;
+    //public GameObject gameob;
 	// Use this for initialization
 	void Start () {
         anim = GetComponent<Animator>();
@@ -15,5 +16,11 @@ public class player : MonoBehaviour {
 	void Update () {
         pSpeed = Input.GetAxis("Vertical");
         anim.SetFloat("speed", pSpeed);
-	}
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            anim.SetTrigger("action");
+        }
+    }
+  
 }
