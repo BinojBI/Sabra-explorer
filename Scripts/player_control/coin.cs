@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class coin : MonoBehaviour {
 
     public Text guitxt;
@@ -32,6 +33,7 @@ public class coin : MonoBehaviour {
 
     void SetCount()
     {
-        guitxt.text = "Count : " + points.display();
+         guitxt.text = " : " + points.display();
+  
     }
 }

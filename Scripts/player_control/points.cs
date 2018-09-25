@@ -16,5 +16,6 @@ using UnityEngine;
     public static int display() {
         return marks;
     }
-    }
+   
+}
 
