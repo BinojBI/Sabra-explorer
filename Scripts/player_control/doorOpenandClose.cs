@@ -67,59 +67,7 @@ public class doorOpenandClose : MonoBehaviour {
         }
     }
 
-		//if (T_ActivatedOpen == true) {
-  //          T_ActivatedClose = false;
-  //      }
-			
 
-		//else if (T_ActivatedClose == true)
-  //      {
-  //          T_ActivatedOpen = false;
-  //      }
-
-      
-
-		//if ((activateTrigger && Input.GetKeyDown (KeyCode.E)) && (!this.doorActivated)) //For some reaseon you can't have both E (open and close).
-		//	{
-		//		textO.SetActive (false);
-		//		textC.SetActive (false);
-		//		T_ActivatedOpen = false;
-		//		T_ActivatedClose = true;
-		//		textO.SetActive (false);
-		//		textC.SetActive (true);
-		//		doorOpen = true;
-  //              open = true;
-            //this.doorActivated = true;
-            //doorOpenSound.SetActive (true);
-            //doorCloseSound.SetActive (false);
-   //         Debug.Log("the dorr is open");
-
-			//if (doorOpen) 
-			//{
-			//	doorOpen = true;
-			//	doorController ("Open");
-			//}
-				
-			//}
-
-		 //   else if((T_ActivatedClose && activateTrigger && Input.GetKey (KeyCode.E)) && (this.doorActivated)) 
-			//{
-			//	T_ActivatedOpen = true;
-			//	T_ActivatedClose = false;
-			//	textO.SetActive (true);
-			//	textC.SetActive (false);
-   //             this.doorActivated = false;
-   //         Debug.Log("the dorr is closed");
-            //doorCloseSound.SetActive (true);
-            //doorOpenSound.SetActive (false);
-
-   //         if (doorOpen) 
-			//{
-			//	doorOpen = false;
-			//	doorController ("Close");
-			//}
-				
-			//} 
 	
 
 
@@ -155,7 +103,7 @@ public class doorOpenandClose : MonoBehaviour {
 			textC.SetActive (false);
 			activateTrigger = true;
 		}
-
+        activateTrigger = false;
 	}
 
 	void doorController(string direction) //Animator function.
