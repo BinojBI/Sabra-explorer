@@ -11,6 +11,7 @@ public class lightPlace : MonoBehaviour
     public GameObject point_table;
     public GameObject addpoints;
     public GameObject winText;
+    public GameObject lightrays;
     public int x;
     public bool wincheck = false;
 
@@ -26,6 +27,7 @@ public class lightPlace : MonoBehaviour
         point_table.SetActive(false);
         addpoints.SetActive(false);
         winText.SetActive(false);
+        lightrays.SetActive(true);
         for (x = 0; x < 5; x++)
         {
             coin[x].SetActive(false);
@@ -36,7 +38,7 @@ public class lightPlace : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (points.display() == 1)
+        if (points.display() == 5)
         {
            
             if (wincheck == false)
@@ -74,6 +76,8 @@ public class lightPlace : MonoBehaviour
         {
             point_table.SetActive(true);
             addpoints.SetActive(true);
+            lightrays.SetActive(false);
+            text_startGame.SetActive(false);
             for (x = 0; x < 5; x++)
             {
                 coin[x].SetActive(true);
@@ -88,6 +92,8 @@ public class lightPlace : MonoBehaviour
             Debug.Log("you win");
             winText.SetActive(true);
             Destroy(winText, 3f);
+        Destroy(point_table, 1f);
+        Destroy(addpoints, 1f);
 
     }
        
