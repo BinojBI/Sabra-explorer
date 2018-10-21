@@ -7,6 +7,11 @@ public class player : MonoBehaviour {
     private Animator anim;
     private float playerSpeed;
     private float playerSide;
+    public GameObject triggers;
+
+
+  
+  
 	// Use this for initialization
 	void Start () {
         anim = GetComponent<Animator>();
@@ -17,9 +22,16 @@ public class player : MonoBehaviour {
         playerSpeed = Input.GetAxis("Vertical");
         playerSide = Input.GetAxis("Horizontal");
         anim.SetFloat("speed", playerSpeed);
-        anim.SetFloat("side", playerSide);
+        anim.SetFloat("direction", playerSide);
 
+       
 
+      
+
+    if (Input.GetKeyDown(KeyCode.E))
+    {
+        anim.Play("IdleGrab_Neutral");
+    }
 
     }
  
